@@ -104,7 +104,6 @@ const UploadModal = () => {
       authorId: songsRecord?.author,
       dateCreated: songsRecord?.dateCreated,
     });
-    console.log(...(await songsRecord?.data.json()))
     if (songs.length) {
       setSongs((prev) => [songs[0], ...prev]);
     }
