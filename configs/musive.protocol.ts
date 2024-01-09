@@ -1,20 +1,20 @@
 export const MusiveProtocol = {
     published: true,
-    protocol: 'https://dennotech.co.ke/protocols/musive',
+    protocol: 'https://github.com/riush03/musive/protocols/musive',
     types: {
       name: {
-        schema: 'https://dennotech.co.ke/schemas/name',
+        schema: 'https://github.com/riush03/musive/schemas/name',
       },
       photo: {
-        schema: 'https://dennotech.co.ke/schemas/userphoto',
+        schema: 'https://github.com/riush03/musive/schemas/userphoto',
         dataFormats: ['image/png', 'jpeg', 'gif'],
       },
       profile: {
-        schema: 'https://dennotech.co.ke/schemas/userprofile',
+        schema: 'https://github.com/riush03/musive/schemas/userprofile',
         dataFormats: ['application/json'],
       },
       songs: {
-        schema: 'https://dennotech.co.ke/schemas/songs',
+        schema: 'https://github.com/riush03/musive/schemas/songs',
         dataFormats: ['application/json','image/png', 'jpeg','audio/mp3'],
       },
     },
