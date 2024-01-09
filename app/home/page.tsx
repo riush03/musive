@@ -6,11 +6,9 @@ import PageConent from '@/components/PageContent';
 import { ISong } from '@/types/types';
 export const revalidate = 0;
 
-interface PageContentProps {
-  songs: any;
-}
 
-const Home: React.FC<PageContentProps> = ({songs}) => {
+
+const Home = () => {
   
 
 
