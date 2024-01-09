@@ -37,6 +37,7 @@ const SongItem:React.FC<SongItemProps> = ({data, onClick}) => {
             <div className="absolute bottom-24 right-5">
                 <PlayButton />
             </div>
+              <audio src={"data:audio/mp3;base64," +  data.song}  className="relative aspect-square w-full h-full rounded-md overflow-hidden" controls />
         </div>
     )
 }
