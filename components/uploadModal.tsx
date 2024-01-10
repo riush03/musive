@@ -110,7 +110,8 @@ const UploadModal = () => {
     }
     setSelectedSong(null)
     setSelectedSongImage(null)
-    toast.success("Login successfully");
+    router.refresh();
+    toast.success("Song was created successfully");
     uploadModal.onClose();
   }
 
