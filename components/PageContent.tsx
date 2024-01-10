@@ -24,7 +24,7 @@ const PageConent = () => {
   
       useEffect(() => {
         (async () => {
-          if (web5 && profile) {
+          if (web5) {
     
     
             const { records: publishedSongsRecords } = await web5.dwn.records.query({
@@ -61,7 +61,7 @@ const PageConent = () => {
             }
           }
         })();
-      }, [web5, profile]);
+      }, [web5]);
     return (
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-8 gap-4 mt-4">
             {songs.map((item) => (
