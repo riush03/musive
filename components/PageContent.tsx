@@ -46,6 +46,7 @@ const PageConent = () => {
                   (record) =>
                     new Promise<ISong>(async (resolve) =>
                       resolve({
+                        ...(await web5.dwn.records.read({message:{filter:{recordId: record.id,},},})),
                         ...(await record.data.json()),
                         recordId: record.id,
                         authorId: record.author,
