@@ -27,7 +27,7 @@ const PageConent = () => {
           if (web5) {
     
     
-            const { records: publishedSongsRecords } = await web5.dwn.records.read({
+            const { records: publishedSongsRecords } = await web5.dwn.records.query({
               message: {
                 filter: {
                   schema: MusiveProtocol.types.songs.schema,
