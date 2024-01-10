@@ -43,7 +43,7 @@ const Header: React.FC<HeaderProps> = ({children, className}) => {
                 <div className="flex justify-between items-center gap-x-4">
                     
                         <div className="flex gap-x-4 items-center">
-                            <Button className="bg-white px-6 py-2" onClick={rputer.push('/')}>
+                            <Button className="bg-white px-6 py-2" onClick={() => router.push('/')}>
                                 Logout
                             </Button>
                             <Button className="bg-white" onClick={() => router.push('/')}>
