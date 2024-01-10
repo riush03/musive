@@ -1,6 +1,8 @@
 Hello everyone welcome to my web5 hackathon project project, To test this app click on this link [Musive](https://musive-xi.vercel.app/).
 
 Check out the live app here **[Musive](https://musive-xi.vercel.app/)** .
+## NB
+When you create a song in the app refresh to see if appears.
 
 ## Getting Started
 
